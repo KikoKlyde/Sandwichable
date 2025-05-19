@@ -11,18 +11,20 @@ import java.util.Optional;
 
 public class CroptopiaCompat {
     public static void init() {
-        addJamSpread("grape_jam", 0x4d3dff);
-        addJamSpread("strawberry_jam", 0xc21d39);
-        addJamSpread("peach_jam", 0xff801f);
-        addJamSpread("apricot_jam", 0xff9b21);
-        addJamSpread("blackberry_jam", 0x1a0e29);
-        addJamSpread("blueberry_jam", 0x17287a);
-        addJamSpread("cherry_jam", 0x8f0018);
-        addJamSpread("elderberry_jam", 0x071124);
-        addJamSpread("raspberry_jam", 0x8a0e2b);
+        addBottleSpread("grape_jam", 0x4d3dff);
+        addBottleSpread("strawberry_jam", 0xc21d39);
+        addBottleSpread("peach_jam", 0xff801f);
+        addBottleSpread("apricot_jam", 0xff9b21);
+        addBottleSpread("blackberry_jam", 0x1a0e29);
+        addBottleSpread("blueberry_jam", 0x17287a);
+        addBottleSpread("cherry_jam", 0x8f0018);
+        addBottleSpread("elderberry_jam", 0x071124);
+        addBottleSpread("raspberry_jam", 0x8a0e2b);
+        addBottleSpread("yam_jam", 0xa27d79);
+        addBottleSpread("peanut_butter", 0xbc9256);
     }
 
-    private static void addJamSpread(String itemId, int color) {
+    private static void addBottleSpread(String itemId, int color) {
         Optional<Item> oitem = Registries.ITEM.getOrEmpty(new Identifier("croptopia", itemId));
         if(oitem.isPresent()) {
             Item item = oitem.get();
