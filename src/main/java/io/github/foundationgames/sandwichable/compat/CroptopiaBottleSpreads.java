@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.Optional;
 
-public class CroptopiaCompat {
+public class CroptopiaBottleSpreads {
     public static void init() {
         addBottleSpread("grape_jam", 0x4d3dff);
         addBottleSpread("strawberry_jam", 0xc21d39);
