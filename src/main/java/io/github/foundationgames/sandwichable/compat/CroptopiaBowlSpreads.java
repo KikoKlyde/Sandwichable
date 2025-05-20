@@ -13,7 +13,7 @@ public class CroptopiaBowlSpreads {
     public static void init() {
         addBowlSpread("vanilla_ice_cream", 0xe8d7bd);
         addBowlSpread("chocolate_ice_cream", 0x975f31);
-        addBowlSpread("strawberry_ice_cream" 0xeb6379);
+        addBowlSpread("strawberry_ice_cream", 0xeb6379);
     }
 
     private static void addBowlSpread(String itemId, int color) {
