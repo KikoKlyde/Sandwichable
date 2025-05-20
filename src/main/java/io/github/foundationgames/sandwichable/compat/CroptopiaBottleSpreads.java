@@ -22,6 +22,8 @@ public class CroptopiaBottleSpreads {
         addBottleSpread("raspberry_jam", 0x8a0e2b);
         addBottleSpread("yam_jam", 0xa27d79);
         addBottleSpread("peanut_butter", 0xbc9256);
+        addBottleSpread("soy_sauce", 0x1f0303);
+        addBottleSpread("molasses", 0x140a03);
     }
 
     private static void addBottleSpread(String itemId, int color) {
