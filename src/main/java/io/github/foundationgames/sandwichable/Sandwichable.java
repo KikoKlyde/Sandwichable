@@ -12,6 +12,7 @@ import io.github.foundationgames.sandwichable.blocks.entity.container.Desalinato
 import io.github.foundationgames.sandwichable.blocks.loot.CopyWorldBiomeLootFunction;
 import io.github.foundationgames.sandwichable.common.CommonTags;
 import io.github.foundationgames.sandwichable.compat.CroptopiaBottleSpreads;
+import io.github.foundationgames.sandwichable.compat.CroptopiaBowlSpreads;
 import io.github.foundationgames.sandwichable.config.SandwichableConfig;
 import io.github.foundationgames.sandwichable.entity.EntitiesRegistry;
 import io.github.foundationgames.sandwichable.entity.SandwichTableMinecartEntity;
