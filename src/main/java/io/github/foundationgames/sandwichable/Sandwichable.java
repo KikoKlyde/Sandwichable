@@ -196,7 +196,7 @@ public class Sandwichable implements ModInitializer {
 
         if(FabricLoader.getInstance().isModLoaded("croptopia")) {
             CroptopiaBottleSpreads.init();
-            CroptopiaBowlSpread.init();
+            CroptopiaBowlSpreads.init();
         }
 
         CommonTags.init();
