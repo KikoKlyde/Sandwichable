@@ -16,7 +16,7 @@ public class CroptopiaBowlSpreads {
         addBowlSpread("strawberry_ice_cream", 0xeb6379);
         addBowlSpread("mango_ice_cream", 0xeaae27);
         addBowlSpread("pecan_ice_cream", 0xd4ba8a);
-        addBowlSpread("rum_raisin_ice_cream", 0xeaae27);
+        addBowlSpread("rum_raisin_ice_cream", 0xbd9a7a);
         addBowlSpread("kiwi_sorbet", 0xbdd363);
         addBowlSpread("whipping_cream", 0xf2f2fc);
         addBowlSpread("crema", 0xf8fcd9);
@@ -26,7 +26,7 @@ public class CroptopiaBowlSpreads {
         addBowlSpread("baked_beans", 0x4e4036);
         addBowlSpread("refried_beans", 0x623c21);
         addBowlSpread("yoghurt", 0xf0dcdc);
-        addBowlSpread("spaghetti_squash", 0xf2f2fc);
+        addBowlSpread("spaghetti_squash", 0xd5cf2a);
     }
 
     private static void addBowlSpread(String itemId, int color) {
