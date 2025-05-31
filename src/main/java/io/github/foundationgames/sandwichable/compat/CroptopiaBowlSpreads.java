@@ -15,17 +15,17 @@ public class CroptopiaBowlSpreads {
         addBowlSpread("chocolate_ice_cream", 0x975f31);
         addBowlSpread("strawberry_ice_cream", 0xeb6379);
         addBowlSpread("mango_ice_cream", 0xeaae27);
-        addBowlSpread("pecan_ice_cream" 0xd4ba8a);
+        addBowlSpread("pecan_ice_cream", 0xd4ba8a);
         addBowlSpread("rum_raisin_ice_cream", 0xeaae27);
         addBowlSpread("kiwi_sorbet", 0xbdd363);
-        addBowlSpread("whipping_cream" 0xf2f2fc);
+        addBowlSpread("whipping_cream", 0xf2f2fc);
         addBowlSpread("crema", 0xf8fcd9);
         addBowlSpread("salsa", 0xa80c14);
         addBowlSpread("nether_wart_stew", 0x7f0229);
         addBowlSpread("beef_stew", 0x7a4633);
-        addBowlSpread("baked_beans" 0x4e4036);
-        addBowlSpread("refried_beans" 0x623c21);
-        addBowlSpread("yoghurt" 0xf0dcdc);
+        addBowlSpread("baked_beans", 0x4e4036);
+        addBowlSpread("refried_beans", 0x623c21);
+        addBowlSpread("yoghurt", 0xf0dcdc);
         addBowlSpread("spaghetti_squash", 0xf2f2fc);
     }
 
